@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(array_of_records) {
-  array_of_records.find(game => game.result === "W" ? game.year : undefined)
+ return array_of_records.find(game => game.result === "W" ? game.year : undefined)
   
 }
